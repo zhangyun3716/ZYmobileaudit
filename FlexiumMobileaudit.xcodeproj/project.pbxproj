@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54285A631DDD3B91001C3A43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54285A621DDD3B91001C3A43 /* main.m */; };
+		54285A661DDD3B91001C3A43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54285A651DDD3B91001C3A43 /* AppDelegate.m */; };
+		54285A691DDD3B91001C3A43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54285A681DDD3B91001C3A43 /* ViewController.m */; };
+		54285A6C1DDD3B91001C3A43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54285A6A1DDD3B91001C3A43 /* Main.storyboard */; };
+		54285A6E1DDD3B91001C3A43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54285A6D1DDD3B91001C3A43 /* Assets.xcassets */; };
+		54285A711DDD3B91001C3A43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54285A6F1DDD3B91001C3A43 /* LaunchScreen.storyboard */; };
+		54285A7C1DDD3B91001C3A43 /* FlexiumMobileauditTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54285A7B1DDD3B91001C3A43 /* FlexiumMobileauditTests.m */; };
+		54285A871DDD3B91001C3A43 /* FlexiumMobileauditUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54285A861DDD3B91001C3A43 /* FlexiumMobileauditUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54285A781DDD3B91001C3A43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54285A561DDD3B91001C3A43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54285A5D1DDD3B91001C3A43;
+			remoteInfo = FlexiumMobileaudit;
+		};
+		54285A831DDD3B91001C3A43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54285A561DDD3B91001C3A43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54285A5D1DDD3B91001C3A43;
+			remoteInfo = FlexiumMobileaudit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54285A5E1DDD3B91001C3A43 /* FlexiumMobileaudit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexiumMobileaudit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54285A621DDD3B91001C3A43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54285A641DDD3B91001C3A43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		54285A651DDD3B91001C3A43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		54285A671DDD3B91001C3A43 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		54285A681DDD3B91001C3A43 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		54285A6B1DDD3B91001C3A43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54285A6D1DDD3B91001C3A43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54285A701DDD3B91001C3A43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54285A721DDD3B91001C3A43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54285A771DDD3B91001C3A43 /* FlexiumMobileauditTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlexiumMobileauditTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54285A7B1DDD3B91001C3A43 /* FlexiumMobileauditTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlexiumMobileauditTests.m; sourceTree = "<group>"; };
+		54285A7D1DDD3B91001C3A43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54285A821DDD3B91001C3A43 /* FlexiumMobileauditUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlexiumMobileauditUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54285A861DDD3B91001C3A43 /* FlexiumMobileauditUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlexiumMobileauditUITests.m; sourceTree = "<group>"; };
+		54285A881DDD3B91001C3A43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54285A5B1DDD3B91001C3A43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54285A741DDD3B91001C3A43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54285A7F1DDD3B91001C3A43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54285A551DDD3B91001C3A43 = {
+			isa = PBXGroup;
+			children = (
+				54285A601DDD3B91001C3A43 /* FlexiumMobileaudit */,
+				54285A7A1DDD3B91001C3A43 /* FlexiumMobileauditTests */,
+				54285A851DDD3B91001C3A43 /* FlexiumMobileauditUITests */,
+				54285A5F1DDD3B91001C3A43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54285A5F1DDD3B91001C3A43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54285A5E1DDD3B91001C3A43 /* FlexiumMobileaudit.app */,
+				54285A771DDD3B91001C3A43 /* FlexiumMobileauditTests.xctest */,
+				54285A821DDD3B91001C3A43 /* FlexiumMobileauditUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54285A601DDD3B91001C3A43 /* FlexiumMobileaudit */ = {
+			isa = PBXGroup;
+			children = (
+				54285A641DDD3B91001C3A43 /* AppDelegate.h */,
+				54285A651DDD3B91001C3A43 /* AppDelegate.m */,
+				54285A671DDD3B91001C3A43 /* ViewController.h */,
+				54285A681DDD3B91001C3A43 /* ViewController.m */,
+				54285A6A1DDD3B91001C3A43 /* Main.storyboard */,
+				54285A6D1DDD3B91001C3A43 /* Assets.xcassets */,
+				54285A6F1DDD3B91001C3A43 /* LaunchScreen.storyboard */,
+				54285A721DDD3B91001C3A43 /* Info.plist */,
+				54285A611DDD3B91001C3A43 /* Supporting Files */,
+			);
+			path = FlexiumMobileaudit;
+			sourceTree = "<group>";
+		};
+		54285A611DDD3B91001C3A43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54285A621DDD3B91001C3A43 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54285A7A1DDD3B91001C3A43 /* FlexiumMobileauditTests */ = {
+			isa = PBXGroup;
+			children = (
+				54285A7B1DDD3B91001C3A43 /* FlexiumMobileauditTests.m */,
+				54285A7D1DDD3B91001C3A43 /* Info.plist */,
+			);
+			path = FlexiumMobileauditTests;
+			sourceTree = "<group>";
+		};
+		54285A851DDD3B91001C3A43 /* FlexiumMobileauditUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54285A861DDD3B91001C3A43 /* FlexiumMobileauditUITests.m */,
+				54285A881DDD3B91001C3A43 /* Info.plist */,
+			);
+			path = FlexiumMobileauditUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54285A5D1DDD3B91001C3A43 /* FlexiumMobileaudit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54285A8B1DDD3B91001C3A43 /* Build configuration list for PBXNativeTarget "FlexiumMobileaudit" */;
+			buildPhases = (
+				54285A5A1DDD3B91001C3A43 /* Sources */,
+				54285A5B1DDD3B91001C3A43 /* Frameworks */,
+				54285A5C1DDD3B91001C3A43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlexiumMobileaudit;
+			productName = FlexiumMobileaudit;
+			productReference = 54285A5E1DDD3B91001C3A43 /* FlexiumMobileaudit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54285A761DDD3B91001C3A43 /* FlexiumMobileauditTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54285A8E1DDD3B91001C3A43 /* Build configuration list for PBXNativeTarget "FlexiumMobileauditTests" */;
+			buildPhases = (
+				54285A731DDD3B91001C3A43 /* Sources */,
+				54285A741DDD3B91001C3A43 /* Frameworks */,
+				54285A751DDD3B91001C3A43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54285A791DDD3B91001C3A43 /* PBXTargetDependency */,
+			);
+			name = FlexiumMobileauditTests;
+			productName = FlexiumMobileauditTests;
+			productReference = 54285A771DDD3B91001C3A43 /* FlexiumMobileauditTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54285A811DDD3B91001C3A43 /* FlexiumMobileauditUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54285A911DDD3B91001C3A43 /* Build configuration list for PBXNativeTarget "FlexiumMobileauditUITests" */;
+			buildPhases = (
+				54285A7E1DDD3B91001C3A43 /* Sources */,
+				54285A7F1DDD3B91001C3A43 /* Frameworks */,
+				54285A801DDD3B91001C3A43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54285A841DDD3B91001C3A43 /* PBXTargetDependency */,
+			);
+			name = FlexiumMobileauditUITests;
+			productName = FlexiumMobileauditUITests;
+			productReference = 54285A821DDD3B91001C3A43 /* FlexiumMobileauditUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54285A561DDD3B91001C3A43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = FLEXium;
+				TargetAttributes = {
+					54285A5D1DDD3B91001C3A43 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = GR5YDTF8KZ;
+					};
+					54285A761DDD3B91001C3A43 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = GR5YDTF8KZ;
+						TestTargetID = 54285A5D1DDD3B91001C3A43;
+					};
+					54285A811DDD3B91001C3A43 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = GR5YDTF8KZ;
+						TestTargetID = 54285A5D1DDD3B91001C3A43;
+					};
+				};
+			};
+			buildConfigurationList = 54285A591DDD3B91001C3A43 /* Build configuration list for PBXProject "FlexiumMobileaudit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54285A551DDD3B91001C3A43;
+			productRefGroup = 54285A5F1DDD3B91001C3A43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54285A5D1DDD3B91001C3A43 /* FlexiumMobileaudit */,
+				54285A761DDD3B91001C3A43 /* FlexiumMobileauditTests */,
+				54285A811DDD3B91001C3A43 /* FlexiumMobileauditUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54285A5C1DDD3B91001C3A43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54285A711DDD3B91001C3A43 /* LaunchScreen.storyboard in Resources */,
+				54285A6E1DDD3B91001C3A43 /* Assets.xcassets in Resources */,
+				54285A6C1DDD3B91001C3A43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54285A751DDD3B91001C3A43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54285A801DDD3B91001C3A43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54285A5A1DDD3B91001C3A43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54285A691DDD3B91001C3A43 /* ViewController.m in Sources */,
+				54285A661DDD3B91001C3A43 /* AppDelegate.m in Sources */,
+				54285A631DDD3B91001C3A43 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54285A731DDD3B91001C3A43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54285A7C1DDD3B91001C3A43 /* FlexiumMobileauditTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54285A7E1DDD3B91001C3A43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54285A871DDD3B91001C3A43 /* FlexiumMobileauditUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54285A791DDD3B91001C3A43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54285A5D1DDD3B91001C3A43 /* FlexiumMobileaudit */;
+			targetProxy = 54285A781DDD3B91001C3A43 /* PBXContainerItemProxy */;
+		};
+		54285A841DDD3B91001C3A43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54285A5D1DDD3B91001C3A43 /* FlexiumMobileaudit */;
+			targetProxy = 54285A831DDD3B91001C3A43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54285A6A1DDD3B91001C3A43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54285A6B1DDD3B91001C3A43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54285A6F1DDD3B91001C3A43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54285A701DDD3B91001C3A43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54285A891DDD3B91001C3A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		54285A8A1DDD3B91001C3A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54285A8C1DDD3B91001C3A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlexiumMobileaudit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLEXium.FlexiumMobileaudit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		54285A8D1DDD3B91001C3A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlexiumMobileaudit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLEXium.FlexiumMobileaudit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		54285A8F1DDD3B91001C3A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlexiumMobileauditTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLEXium.FlexiumMobileauditTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlexiumMobileaudit.app/FlexiumMobileaudit";
+			};
+			name = Debug;
+		};
+		54285A901DDD3B91001C3A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlexiumMobileauditTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLEXium.FlexiumMobileauditTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlexiumMobileaudit.app/FlexiumMobileaudit";
+			};
+			name = Release;
+		};
+		54285A921DDD3B91001C3A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FlexiumMobileauditUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLEXium.FlexiumMobileauditUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FlexiumMobileaudit;
+			};
+			name = Debug;
+		};
+		54285A931DDD3B91001C3A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FlexiumMobileauditUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLEXium.FlexiumMobileauditUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FlexiumMobileaudit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54285A591DDD3B91001C3A43 /* Build configuration list for PBXProject "FlexiumMobileaudit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54285A891DDD3B91001C3A43 /* Debug */,
+				54285A8A1DDD3B91001C3A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54285A8B1DDD3B91001C3A43 /* Build configuration list for PBXNativeTarget "FlexiumMobileaudit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54285A8C1DDD3B91001C3A43 /* Debug */,
+				54285A8D1DDD3B91001C3A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		54285A8E1DDD3B91001C3A43 /* Build configuration list for PBXNativeTarget "FlexiumMobileauditTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54285A8F1DDD3B91001C3A43 /* Debug */,
+				54285A901DDD3B91001C3A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		54285A911DDD3B91001C3A43 /* Build configuration list for PBXNativeTarget "FlexiumMobileauditUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54285A921DDD3B91001C3A43 /* Debug */,
+				54285A931DDD3B91001C3A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54285A561DDD3B91001C3A43 /* Project object */;
+}
