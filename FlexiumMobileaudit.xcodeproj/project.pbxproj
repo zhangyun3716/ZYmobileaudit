@@ -15,6 +15,25 @@
 		54285A711DDD3B91001C3A43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54285A6F1DDD3B91001C3A43 /* LaunchScreen.storyboard */; };
 		54285A7C1DDD3B91001C3A43 /* FlexiumMobileauditTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54285A7B1DDD3B91001C3A43 /* FlexiumMobileauditTests.m */; };
 		54285A871DDD3B91001C3A43 /* FlexiumMobileauditUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54285A861DDD3B91001C3A43 /* FlexiumMobileauditUITests.m */; };
+		54285A951DDD40DB001C3A43 /* logo-flexium.png in Resources */ = {isa = PBXBuildFile; fileRef = 54285A941DDD40DB001C3A43 /* logo-flexium.png */; };
+		54285A981DDD44E7001C3A43 /* 类型.png in Resources */ = {isa = PBXBuildFile; fileRef = 54285A961DDD44E7001C3A43 /* 类型.png */; };
+		54285A991DDD44E7001C3A43 /* 选择.png in Resources */ = {isa = PBXBuildFile; fileRef = 54285A971DDD44E7001C3A43 /* 选择.png */; };
+		54285A9C1DDD458A001C3A43 /* 扫一扫2.png in Resources */ = {isa = PBXBuildFile; fileRef = 54285A9B1DDD458A001C3A43 /* 扫一扫2.png */; };
+		54285A9F1DDD540E001C3A43 /* ZYScannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54285A9E1DDD540E001C3A43 /* ZYScannerView.m */; };
+		547C4FF71DE5486E003DE79A /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 547C4FDB1DE5486E003DE79A /* NSData+ImageContentType.m */; };
+		547C4FF81DE5486E003DE79A /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 547C4FDD1DE5486E003DE79A /* SDImageCache.m */; };
+		547C4FF91DE5486E003DE79A /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 547C4FDF1DE5486E003DE79A /* SDWebImageCompat.m */; };
+		547C4FFA1DE5486E003DE79A /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 547C4FE11DE5486E003DE79A /* SDWebImageDecoder.m */; };
+		547C4FFB1DE5486E003DE79A /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 547C4FE31DE5486E003DE79A /* SDWebImageDownloader.m */; };
+		547C4FFC1DE5486E003DE79A /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 547C4FE51DE5486E003DE79A /* SDWebImageDownloaderOperation.m */; };
+		547C4FFD1DE5486E003DE79A /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 547C4FE71DE5486E003DE79A /* SDWebImageManager.m */; };
+		547C4FFE1DE5486E003DE79A /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 547C4FEA1DE5486E003DE79A /* SDWebImagePrefetcher.m */; };
+		547C4FFF1DE5486E003DE79A /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 547C4FEC1DE5486E003DE79A /* UIButton+WebCache.m */; };
+		547C50001DE5486E003DE79A /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 547C4FEE1DE5486E003DE79A /* UIImage+GIF.m */; };
+		547C50011DE5486E003DE79A /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 547C4FF01DE5486E003DE79A /* UIImage+MultiFormat.m */; };
+		547C50021DE5486E003DE79A /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 547C4FF21DE5486E003DE79A /* UIImageView+HighlightedWebCache.m */; };
+		547C50031DE5486E003DE79A /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 547C4FF41DE5486E003DE79A /* UIImageView+WebCache.m */; };
+		547C50041DE5486E003DE79A /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 547C4FF61DE5486E003DE79A /* UIView+WebCacheOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		54285A5E1DDD3B91001C3A43 /* FlexiumMobileaudit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexiumMobileaudit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54285A5E1DDD3B91001C3A43 /* 廠區異常稽核.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "廠區異常稽核.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54285A621DDD3B91001C3A43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		54285A641DDD3B91001C3A43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		54285A651DDD3B91001C3A43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +70,41 @@
 		54285A821DDD3B91001C3A43 /* FlexiumMobileauditUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlexiumMobileauditUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54285A861DDD3B91001C3A43 /* FlexiumMobileauditUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlexiumMobileauditUITests.m; sourceTree = "<group>"; };
 		54285A881DDD3B91001C3A43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54285A941DDD40DB001C3A43 /* logo-flexium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-flexium.png"; sourceTree = "<group>"; };
+		54285A961DDD44E7001C3A43 /* 类型.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "类型.png"; sourceTree = "<group>"; };
+		54285A971DDD44E7001C3A43 /* 选择.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选择.png"; sourceTree = "<group>"; };
+		54285A9B1DDD458A001C3A43 /* 扫一扫2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "扫一扫2.png"; sourceTree = "<group>"; };
+		54285A9D1DDD540E001C3A43 /* ZYScannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYScannerView.h; sourceTree = "<group>"; };
+		54285A9E1DDD540E001C3A43 /* ZYScannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYScannerView.m; sourceTree = "<group>"; };
+		547C4FDA1DE5486E003DE79A /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		547C4FDB1DE5486E003DE79A /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		547C4FDC1DE5486E003DE79A /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		547C4FDD1DE5486E003DE79A /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		547C4FDE1DE5486E003DE79A /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		547C4FDF1DE5486E003DE79A /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		547C4FE01DE5486E003DE79A /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		547C4FE11DE5486E003DE79A /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		547C4FE21DE5486E003DE79A /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		547C4FE31DE5486E003DE79A /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		547C4FE41DE5486E003DE79A /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		547C4FE51DE5486E003DE79A /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		547C4FE61DE5486E003DE79A /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		547C4FE71DE5486E003DE79A /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		547C4FE81DE5486E003DE79A /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		547C4FE91DE5486E003DE79A /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		547C4FEA1DE5486E003DE79A /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		547C4FEB1DE5486E003DE79A /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		547C4FEC1DE5486E003DE79A /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		547C4FED1DE5486E003DE79A /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		547C4FEE1DE5486E003DE79A /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		547C4FEF1DE5486E003DE79A /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		547C4FF01DE5486E003DE79A /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		547C4FF11DE5486E003DE79A /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		547C4FF21DE5486E003DE79A /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		547C4FF31DE5486E003DE79A /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		547C4FF41DE5486E003DE79A /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		547C4FF51DE5486E003DE79A /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		547C4FF61DE5486E003DE79A /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +145,7 @@
 		54285A5F1DDD3B91001C3A43 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				54285A5E1DDD3B91001C3A43 /* FlexiumMobileaudit.app */,
+				54285A5E1DDD3B91001C3A43 /* 廠區異常稽核.app */,
 				54285A771DDD3B91001C3A43 /* FlexiumMobileauditTests.xctest */,
 				54285A821DDD3B91001C3A43 /* FlexiumMobileauditUITests.xctest */,
 			);
@@ -101,6 +155,9 @@
 		54285A601DDD3B91001C3A43 /* FlexiumMobileaudit */ = {
 			isa = PBXGroup;
 			children = (
+				547C4FD91DE5486E003DE79A /* SDWebImage */,
+				54285AA01DDD541B001C3A43 /* ZYscan */,
+				54285A9A1DDD44EE001C3A43 /* image */,
 				54285A641DDD3B91001C3A43 /* AppDelegate.h */,
 				54285A651DDD3B91001C3A43 /* AppDelegate.m */,
 				54285A671DDD3B91001C3A43 /* ViewController.h */,
@@ -140,6 +197,62 @@
 			path = FlexiumMobileauditUITests;
 			sourceTree = "<group>";
 		};
+		54285A9A1DDD44EE001C3A43 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				54285A9B1DDD458A001C3A43 /* 扫一扫2.png */,
+				54285A961DDD44E7001C3A43 /* 类型.png */,
+				54285A971DDD44E7001C3A43 /* 选择.png */,
+				54285A941DDD40DB001C3A43 /* logo-flexium.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		54285AA01DDD541B001C3A43 /* ZYscan */ = {
+			isa = PBXGroup;
+			children = (
+				54285A9D1DDD540E001C3A43 /* ZYScannerView.h */,
+				54285A9E1DDD540E001C3A43 /* ZYScannerView.m */,
+			);
+			name = ZYscan;
+			sourceTree = "<group>";
+		};
+		547C4FD91DE5486E003DE79A /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				547C4FDA1DE5486E003DE79A /* NSData+ImageContentType.h */,
+				547C4FDB1DE5486E003DE79A /* NSData+ImageContentType.m */,
+				547C4FDC1DE5486E003DE79A /* SDImageCache.h */,
+				547C4FDD1DE5486E003DE79A /* SDImageCache.m */,
+				547C4FDE1DE5486E003DE79A /* SDWebImageCompat.h */,
+				547C4FDF1DE5486E003DE79A /* SDWebImageCompat.m */,
+				547C4FE01DE5486E003DE79A /* SDWebImageDecoder.h */,
+				547C4FE11DE5486E003DE79A /* SDWebImageDecoder.m */,
+				547C4FE21DE5486E003DE79A /* SDWebImageDownloader.h */,
+				547C4FE31DE5486E003DE79A /* SDWebImageDownloader.m */,
+				547C4FE41DE5486E003DE79A /* SDWebImageDownloaderOperation.h */,
+				547C4FE51DE5486E003DE79A /* SDWebImageDownloaderOperation.m */,
+				547C4FE61DE5486E003DE79A /* SDWebImageManager.h */,
+				547C4FE71DE5486E003DE79A /* SDWebImageManager.m */,
+				547C4FE81DE5486E003DE79A /* SDWebImageOperation.h */,
+				547C4FE91DE5486E003DE79A /* SDWebImagePrefetcher.h */,
+				547C4FEA1DE5486E003DE79A /* SDWebImagePrefetcher.m */,
+				547C4FEB1DE5486E003DE79A /* UIButton+WebCache.h */,
+				547C4FEC1DE5486E003DE79A /* UIButton+WebCache.m */,
+				547C4FED1DE5486E003DE79A /* UIImage+GIF.h */,
+				547C4FEE1DE5486E003DE79A /* UIImage+GIF.m */,
+				547C4FEF1DE5486E003DE79A /* UIImage+MultiFormat.h */,
+				547C4FF01DE5486E003DE79A /* UIImage+MultiFormat.m */,
+				547C4FF11DE5486E003DE79A /* UIImageView+HighlightedWebCache.h */,
+				547C4FF21DE5486E003DE79A /* UIImageView+HighlightedWebCache.m */,
+				547C4FF31DE5486E003DE79A /* UIImageView+WebCache.h */,
+				547C4FF41DE5486E003DE79A /* UIImageView+WebCache.m */,
+				547C4FF51DE5486E003DE79A /* UIView+WebCacheOperation.h */,
+				547C4FF61DE5486E003DE79A /* UIView+WebCacheOperation.m */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,7 +270,7 @@
 			);
 			name = FlexiumMobileaudit;
 			productName = FlexiumMobileaudit;
-			productReference = 54285A5E1DDD3B91001C3A43 /* FlexiumMobileaudit.app */;
+			productReference = 54285A5E1DDD3B91001C3A43 /* 廠區異常稽核.app */;
 			productType = "com.apple.product-type.application";
 		};
 		54285A761DDD3B91001C3A43 /* FlexiumMobileauditTests */ = {
@@ -207,7 +320,7 @@
 				TargetAttributes = {
 					54285A5D1DDD3B91001C3A43 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = GR5YDTF8KZ;
+						DevelopmentTeam = J57888S29T;
 					};
 					54285A761DDD3B91001C3A43 = {
 						CreatedOnToolsVersion = 7.3;
@@ -246,9 +359,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54285A981DDD44E7001C3A43 /* 类型.png in Resources */,
+				54285A991DDD44E7001C3A43 /* 选择.png in Resources */,
+				54285A9C1DDD458A001C3A43 /* 扫一扫2.png in Resources */,
 				54285A711DDD3B91001C3A43 /* LaunchScreen.storyboard in Resources */,
 				54285A6E1DDD3B91001C3A43 /* Assets.xcassets in Resources */,
 				54285A6C1DDD3B91001C3A43 /* Main.storyboard in Resources */,
+				54285A951DDD40DB001C3A43 /* logo-flexium.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +390,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				547C4FF71DE5486E003DE79A /* NSData+ImageContentType.m in Sources */,
+				547C4FFD1DE5486E003DE79A /* SDWebImageManager.m in Sources */,
+				547C50021DE5486E003DE79A /* UIImageView+HighlightedWebCache.m in Sources */,
+				547C4FFB1DE5486E003DE79A /* SDWebImageDownloader.m in Sources */,
+				547C50031DE5486E003DE79A /* UIImageView+WebCache.m in Sources */,
+				547C4FF81DE5486E003DE79A /* SDImageCache.m in Sources */,
 				54285A691DDD3B91001C3A43 /* ViewController.m in Sources */,
 				54285A661DDD3B91001C3A43 /* AppDelegate.m in Sources */,
+				547C4FFA1DE5486E003DE79A /* SDWebImageDecoder.m in Sources */,
+				547C50011DE5486E003DE79A /* UIImage+MultiFormat.m in Sources */,
+				547C4FFC1DE5486E003DE79A /* SDWebImageDownloaderOperation.m in Sources */,
+				54285A9F1DDD540E001C3A43 /* ZYScannerView.m in Sources */,
+				547C4FFF1DE5486E003DE79A /* UIButton+WebCache.m in Sources */,
+				547C4FFE1DE5486E003DE79A /* SDWebImagePrefetcher.m in Sources */,
+				547C4FF91DE5486E003DE79A /* SDWebImageCompat.m in Sources */,
+				547C50001DE5486E003DE79A /* UIImage+GIF.m in Sources */,
+				547C50041DE5486E003DE79A /* UIView+WebCacheOperation.m in Sources */,
 				54285A631DDD3B91001C3A43 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,10 +548,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FlexiumMobileaudit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FLEXium.FlexiumMobileaudit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "廠區異常稽核";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -427,10 +562,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FlexiumMobileaudit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FLEXium.FlexiumMobileaudit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "廠區異常稽核";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -499,6 +637,7 @@
 				54285A8D1DDD3B91001C3A43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54285A8E1DDD3B91001C3A43 /* Build configuration list for PBXNativeTarget "FlexiumMobileauditTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +646,7 @@
 				54285A901DDD3B91001C3A43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54285A911DDD3B91001C3A43 /* Build configuration list for PBXNativeTarget "FlexiumMobileauditUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +655,7 @@
 				54285A931DDD3B91001C3A43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

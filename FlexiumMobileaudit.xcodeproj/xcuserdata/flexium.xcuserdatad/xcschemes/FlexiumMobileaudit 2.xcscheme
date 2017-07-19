@@ -28,26 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "54285A761DDD3B91001C3A43"
-               BuildableName = "FlexiumMobileauditTests.xctest"
-               BlueprintName = "FlexiumMobileauditTests"
-               ReferencedContainer = "container:FlexiumMobileaudit.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "54285A811DDD3B91001C3A43"
-               BuildableName = "FlexiumMobileauditUITests.xctest"
-               BlueprintName = "FlexiumMobileauditUITests"
-               ReferencedContainer = "container:FlexiumMobileaudit.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
